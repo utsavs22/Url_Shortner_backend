@@ -3,6 +3,7 @@ package com.app.urlshortner.repository;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 import com.app.urlshortner.entity.UrlEntity;
+import java.util.Optional;
 
 /**
  * Repository interface for database operations related to the UrlEntity.
